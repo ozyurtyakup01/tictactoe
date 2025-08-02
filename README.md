@@ -1,12 +1,18 @@
-# React + Vite
+Tic Tac Toe
+https://ozyurtyakup01.github.io/tictactoe/
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+Tic Tac Toe is a classic two-player game implemented as a web application using React and vanilla JavaScript. The game features a clean and responsive user interface, allowing users to play the game interactively against another player. The app uses React state and props to manage game logic and UI updates dynamically. This project is deployed on GitHub Pages for easy web access.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+================
+Key Features
+================
+Two players alternate turns to place Xs and Os on a 3x3 grid.
 
-## Expanding the ESLint configuration
+Game State Management: Uses React hooks (useState, useEffect) to manage game state and track the current player, winner, or draw.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+User-Friendly Interface: Clean and responsive design built with HTML and CSS, providing visual feedback on player moves.
+
+Win Detection: Automatically detects winning conditions or draws and displays a message.
+
+Restart Game: Option to reset the game board and start over.
